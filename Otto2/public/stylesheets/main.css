@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Oswald|Raleway|Roboto');
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(168, 168, 168);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  background-color: rgb(17, 51, 104);
+  width: 75%;
+  min-height: 50px;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+  top: 0;
+  position: relative;
+  transition: all 0.5s;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-top: 15px;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+div.container {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  padding: 50px 0;
+  background-color: white;
+}
+
+hr{
+  width: 250px;
+  height: 3px;
+  background-color: rgb(17, 51, 104);
+  border: 0;
+  margin-bottom: 50px;
+}
+
+path {
+  color: black;
+  font-size: 24px;
+}
+
+/* Index Page */
+.fixed-nav {
+  position: fixed;
+  margin-left: 12.5%;
+}
+
+div.slideshow {
+  width: 75%;
+  min-height: 500px;
+  margin: auto;
+  background-image: url("../img/223.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+div.container div:nth-child(even) {
+  text-align: right;
+  background-color: rgba(17, 51, 104, 0.1);
+}
+
+.placeholder {
+  width: 350px;
+  height: auto;
+}
+
+.about, .services, .contact, .placeholder2 {
+  padding: 50px;
+}
+
+/* About Page */
+div.about-page {
+  width: 50%;
+  margin: auto;
+}
+
+div.about-page h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+div.about-page p {
+  text-align: justify;
+  text-align-last: center;
+}
+
+/* Services Page */
+div.services-page {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+div.services-page p {
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 20px;
+}
+
+div.services-page ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.services-page ul li path {
+  color: rgb(17, 51, 104);
+}
+
+div.services-page li h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Contact Page */
+div.contact-page {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+div.contact-page p {
+  text-align: justify;
+  text-align-last: center;
+  padding-bottom: 20px;
+}
+
+p span {
+  font-weight: bold;
+}
+
+div.contact-page p a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div.contact-page p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+form input {
+  min-width: 300px;
+  padding: 15px;
+}
+
+form button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+#submit-button {
+  background-color: rgb(92,184,92);
+}
+
+#clear-button {
+  background-color: rgb(66,139,202);
+}
+
+/* Footer */
+footer {
+  background-color: rgb(17, 51, 104);
+  color: white;
+  padding: 20px 0;
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  flex-grow: .05;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 16px;
+}
+
+footer path {
+  color: white;
+  font-size: 24px;
+}
